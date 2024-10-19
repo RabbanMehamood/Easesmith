@@ -50,7 +50,7 @@ function PlantCarousel() {
   };
 
   return (
-    <div className="mt-10">
+    <div className="m-10">
       <Slider {...settings}>
         {data.map((item) => (
           <div
