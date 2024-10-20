@@ -15,7 +15,7 @@ const ThankYouPage = () => {
 
         {/* Image */}
         <img
-          src="public/images/thankyouplant.png"
+          src="images/thankyouplant.png"
           alt="Plant Icon"
           className="w-24 h-24 mx-auto mb-6"
         />
