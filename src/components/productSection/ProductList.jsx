@@ -15,7 +15,7 @@ const ProductList = ({ products }) => {
 
   return (
     <div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="px-20 grid grid-cols-3 gap-4">
         {currentProducts.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
@@ -27,7 +27,7 @@ const ProductList = ({ products }) => {
           <button 
             key={number + 1} 
             onClick={() => paginate(number + 1)}
-            className={`mx-1 px-3 py-1 border ${currentPage === number + 1 ? 'bg-green-500 text-white' : ''}`}>
+            className={`my-2 mx-1 px-3 py-1 border rounded ${currentPage === number + 1 ? 'bg-[#165315] text-white' : ''}`}>
             {number + 1}
           </button>
         ))}
